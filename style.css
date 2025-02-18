@@ -56,3 +56,44 @@ html{
 .main-login{
     align-items: center;
 }
+
+/* INDEX.HTML */
+
+/* header */
+
+.main-home{
+    color: white;
+}
+.nav-header{
+    background-color: #242424;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+li{
+    padding: 2%;
+}
+.titulo-artista{
+color: #21ADD1;
+}
+.titulo-locales{
+color: #E8C593;
+}
+h1{
+    text-align: center;
+    padding: 2%;
+    font-size: 128px;
+}
+.img-home{
+    text-align: center;
+}
+.h1-lema{
+    padding: 10% !important; 
+}

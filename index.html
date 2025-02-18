@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Vyneat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-login">
@@ -14,32 +17,30 @@
         <div class="img-logo-header">
             <img class="img-header" src="media/imagenes/logo.png" alt="logo">
         </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="locals">LOCALS</a></li>
-                <li><a href="ARTIST.html">ARTIST</a></li>
-                <li><a href="aboutus.html">ABOUT US</a></li>
-            </ul>
-        </nav>
     </header>
-    <main>
+    <nav class="nav-header">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="locals">LOCALS</a></li>
+            <li><a href="artista.html">ARTIST</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+        </ul>
+    </nav>
+    <main class="main-home">
     <div class="cabecera-home" id="home">
-        <h1>ARTISTAS Y <span>LOCALES</span> UNIDOS</h1>
-        <figure>
+        <h1><strong><span class="titulo-artista">ARTISTAS</span> Y <span class="titulo-locales">LOCALES</span> UNIDOS</strong></h1>
+        <figure class="img-home">
             <img src="media/imagenes/imgHome1.png" alt="Gente cantando">
-            <figcaption>Gente cantando</figcaption>
         </figure>
     </div>
     <section>
-        <h1>NUESTRO LEMA</h1>
+        <h1 class="h1-lema">NUESTRO LEMA</h1>
         <p>Sabores del Alma es un restaurante acogedor que fusiona la cocina tradicional con un toque moderno. Nuestro menú, elaborado con ingredientes frescos y locales, ofrece una experiencia gastronómica única. Disfruta de un ambiente cálido, atención de primera y platillos que deleitan el paladar. Te esperamos para compartir momentos inolvidables.</p>
     </section>
     <section>
         <article>
             <figure>
                 <img src="media/imagenes/LupaHome.png" alt="Lupa de busqueda del Home">
-                <figcaption>Lupa de busqueda del Home</figcaption>
             </figure>
             <h4>Busca con facilidad</h4>
             <p>Busca entre muchos artistas/locales en cuestion de segundos</p>
@@ -47,7 +48,6 @@
         <article>
             <figure>
                 <img src="media/imagenes/NotaMusicalHome.png" alt="Nota Musical del Home">
-                <figcaption>Nota Musical del Home</figcaption>
             </figure>
             <h4>Encuentra tu estilo</h4>
             <p>Encuentra el estilo que más se adapte</p>
@@ -55,46 +55,66 @@
         <article>
             <figure>
                 <img src="media/imagenes/OjoHome.png" alt="Ojo Home">
-                <figcaption>Ojo Home</figcaption>
             </figure>
             <h4>Gana visibilidad</h4>
             <p>Destaca en nuestra plataforma para que te conozca mas público.</p>
         </article>
     </section>
-    <figure>
+    <figure class="img-home">
         <img src="media/imagenes/imgHome2.png" alt="Local de noche">
-        <figcaption>Local de noche</figcaption>
+        <h3>Nombre del cantante</h3>
     </figure>
         <h1><strong>MEJORES ARTISTAS</strong></h1>
     <section>
         <article>
             <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
+                <img src="media/imagenes/cantante1.png" alt="Cantante de noche">
+                <figcaption>Cantante de noche</figcaption>
+                <h3>Nombre del cantante</h3>
+                <p>Dirección</p>
             </figure>
         </article>
         <article>
             <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
+                <img src="media/imagenes/cantante2.png" alt="Cantante componiendo">
+                <h3>Nombre del cantante</h3>
+                <p>Dirección</p>
             </figure>
         </article>
         <article>
             <figure>
-                <img src="" alt="">
-                <figcaption></figcaption>
+                <img src="media/imagenes/cantante3.png" alt="Cantante posando para la foto">
+                <p>Dirección</p>
             </figure>
         </article>
     </section>
     <section>
         <h1>MEJORES LOCALES</h1>
-        
+        <article>
+            <figure>
+                <img src="media/imagenes/Local.png" alt="Cantante de noche">
+                <h3>Nombre del cantante</h3>
+                <p>Dirección</p>
+            </figure>
+        </article>
+        <article>
+            <figure>
+                <img src="media/imagenes/Local.png" alt="Cantante componiendo">
+                <h3>Nombre del cantante</h3>
+                <p>Dirección</p>
+            </figure>
+        </article>
+        <article>
+            <figure>
+                <img src="media/imagenes/Local.png" alt="Cantante posando para la foto">
+                <p>Dirección</p>
+            </figure>
+        </article>
     </section>
     </main>
     <footer>
         <figure>
             <img src="media/imagenes/LogoFooter.png" alt="Logo footer">
-            <figcaption>Logo footer</figcaption>
         </figure>
         <h1 class="h1-logo">Vyn<span class="span-logo">eat</span></h1>
         <nav>
