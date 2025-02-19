@@ -51,7 +51,6 @@ a{
     width: 33.3%;
     display: flex;
 }
-
 .img-logo-header{
     justify-content: center;
 }
@@ -70,9 +69,13 @@ a{
     background-color: white;
     border-radius: 10px;
     display: flex;
+    width: 60%;
+    height: 80%;
 }
 .div-user{
     padding: 20px;
+    width: 100%;
+    align-items:center;
 }
 .div-user-a{
     display: flex;
@@ -82,10 +85,10 @@ a{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    gap: 20px;
 }
 .input-inicio{
     padding: 20px;
-    margin: 20px;
 }
 .div-a-login{
     display: flex;
