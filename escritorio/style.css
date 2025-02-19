@@ -29,17 +29,23 @@ html{
     width: 50px;
     height: 50px;
 }
-.botones-header, .a-iniciar-sesion, .a-registrarse{
+.botones-header{
     padding: 10px;
 }
-.a-iniciar-sesion, .a-registrarse{
-    color: white;
-    font-weight: bold;
+.a-iniciar-sesion{
+    background-color: none;
+}
+.header-login a{
     margin: 10px;
 }
-.a-registrarse{
+a{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.a-general{
     background-color: #21add1;
-    border-radius: 50px;
+    border-radius: 50px;   
 }
 .header-login > div {
     width: 33.3%;
@@ -53,7 +59,9 @@ html{
     justify-content: flex-end;
 }
 /* main */
-.main-login{
+.main-sign{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -96,4 +104,31 @@ h1{
 }
 .h1-lema{
     padding: 10% !important; 
+    width: 100%;
+    height: 91vh;
+}
+.container-sign{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+.div-user{
+    padding: 20px;
+}
+.div-user-a{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-sign{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.input-inicio{
+    padding: 20px;
+    margin: 20px;
+}
+.div-a-login{
+    display: flex;
+    justify-content: space-between;
 }
