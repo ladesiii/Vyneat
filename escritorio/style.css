@@ -1,134 +1,136 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-html{
+
+html {
     font-family: "Montserrat";
     background-color: #242424;
 }
+
 /* LOGIN.HTML */
 /* header */
-.header-login{
+.header-login {
     width: 100%;
     background-color: #0c657b;
     display: flex;
     align-items: center;
 }
-.h1-logo{
+
+.h1-logo {
     font-family: "Poppins";
     font-size: 35px;
     padding: 15px;
     color: white;
-    width: 33,3%;
+    width: 33, 3%;
 }
-.span-logo{
+
+.span-logo {
     color: #E8C593;
 }
-.img-header{
+
+.img-header {
     width: 50px;
     height: 50px;
 }
-.botones-header{
+
+.botones-header {
     padding: 10px;
 }
-.a-iniciar-sesion{
+
+.a-iniciar-sesion {
     background-color: none;
 }
-.header-login a{
+
+.header-login a {
     margin: 10px;
 }
-a{
+
+a {
     color: white;
     font-weight: bold;
     padding: 10px;
 }
-.a-general{
+
+.a-general {
     background-color: #21add1;
-    border-radius: 50px;   
+    border-radius: 50px;
 }
-.header-login > div {
+
+.header-login>div {
     width: 33.3%;
     display: flex;
 }
 
-.img-logo-header{
+.img-logo-header {
     justify-content: center;
 }
-.botones-header{
+
+.botones-header {
     justify-content: flex-end;
 }
+
 /* main */
-.main-sign{
+.main-sign {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* INDEX.HTML */
-
 /* header */
 
-.main-home{
+.main-home {
     color: white;
 }
-.nav-header{
+
+.nav-header {
     background-color: #242424;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
+
 ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
-li{
+
+li {
     padding: 2%;
 }
-.titulo-artista{
-color: #21ADD1;
+
+.titulo-artista {
+    color: #21ADD1;
 }
-.titulo-locales{
-color: #E8C593;
+
+.titulo-locales {
+    color: #E8C593;
 }
-h1{
+
+h1 {
     text-align: center;
     padding: 2%;
     font-size: 128px;
 }
-.img-home{
+
+.img-home {
     text-align: center;
 }
-.h1-lema{
-    padding: 10% !important; 
-    width: 100%;
-    height: 91vh;
+
+.h1-lema {
+    padding: 10% !important;
+    width: 80%;
+    height: 16vh;
 }
-.container-sign{
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-}
-.div-user{
-    padding: 20px;
-}
-.div-user-a{
-    display: flex;
-    justify-content: flex-end;
-}
-.form-sign{
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-.input-inicio{
-    padding: 20px;
-    margin: 20px;
-}
-.div-a-login{
-    display: flex;
-    justify-content: space-between;
+
+.p-lema {
+    padding: 10% !important;
+    width: 80%;
+    height: 16vh;
+    font-size: 24px;
 }
