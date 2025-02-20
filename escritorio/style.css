@@ -112,7 +112,7 @@ li {
     color: #E8C593;
 }
 
-h1 {
+.titulo-artista-cabecera, .h1-lema {
     text-align: center;
     padding: 2%;
     font-size: 128px;
@@ -123,14 +123,62 @@ h1 {
 }
 
 .h1-lema {
-    padding: 10% !important;
+    padding: 10%;
+    padding-bottom: 0%;
     width: 80%;
     height: 16vh;
+    padding-top: 7%;
 }
 
 .p-lema {
-    padding: 10% !important;
+    padding: 10%;
     width: 80%;
-    height: 16vh;
     font-size: 24px;
+    text-align: center;
+}
+
+.section-home {
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
+.article-home{
+    width: 33.3%;
+    text-align: center;
+    padding: 1%;
+}
+
+.article-home h4, p {
+    padding: 4%;
+    width: 92%;
+}
+
+.h1-mejores-artistas{
+    text-align: center;
+    padding: 2%;
+    font-size: 150px;
+    color: #21ADD1;
+    padding-bottom: 8%;
+    padding-top: 10%;
+}
+
+.section-mejores-artistas{
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+    background-image: url(/media/imagenes/fondoMadera.png);
+    padding-top: 4%;
+    width: 86%;
+}
+
+.section-mejores-locales h1{
+    text-align: center;
+    padding: 2%;
+    font-size: 150px;
+    color: #E8C593;
 }
