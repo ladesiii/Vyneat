@@ -194,6 +194,8 @@ body{
 
 .main-home {
     color: white;
+    justify-items: center;
+
 }
 
 .nav-header {
@@ -276,6 +278,15 @@ li {
     padding-top: 10%;
 }
 
+.h1-mejores-locales{
+    color: #E8C593;
+    text-align: center;
+    padding: 2%;
+    font-size: 150px;
+    padding-bottom: 8%;
+    padding-top: 10%;
+}
+
 .section-mejores-artistas{
     padding-left: 1%;
     display: flex;
@@ -285,6 +296,35 @@ li {
     background-image: url(/media/imagenes/fondoMadera.png);
     padding-top: 4%;
     width: 86%;
+}
+
+.section-mejores-locales{
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+    background-image: url(/media/imagenes/fondoMadera.png);
+    padding-top: 4%;
+    width: 86%;
+}
+
+.figure-artistas img{
+    width: 85%;
+}
+
+.puntuacion-cuatro-estrellas img{
+    width: 8%;
+}
+.puntuacion-una-estrella img{
+    width: 8%;
+}.puntuacion-dos-estrellas img{
+    width: 8%;
+}.puntuacion-tres-estrellas img{
+    width: 8%;
+}
+.puntuacion-cinco-estrellas img{
+    width: 8%;
 }
 
 .section-mejores-locales h1{
