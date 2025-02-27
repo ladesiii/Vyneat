@@ -202,18 +202,17 @@ body{
     background-color: #242424;
 }
 
-a {
+.nav-header a {
     color: white;
-    text-decoration: none;
 }
 
-ul {
+.nav-header ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
 
-li {
+.nav-header li {
     padding: 2%;
 }
 
@@ -309,8 +308,9 @@ li {
     width: 86%;
 }
 
-.figure-artistas img{
+.figure-artistas img, .figure-artistas p{
     width: 85%;
+    color: #0C657B;
 }
 
 .puntuacion-cuatro-estrellas img{
