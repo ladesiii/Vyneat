@@ -119,7 +119,8 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    /*padding: 20px;*/
+    overflow: hidden;
 }
 .div-user > a {
     width: 22%;
@@ -178,18 +179,24 @@ button{
 }
 /* REGISTRO.HTML */
 .container-registro{
-    background-color: #ffffff;
+    background-color: #21add1;
     border: 2%;
     border-radius: 10px;
     width: 70%;
     height: 80%;
-    display: flex;
 }
 .div-registro{
-    background-color: black;
-    width: 48%;
+    background-color: white;
+    width: 47%;
     height: 90%;
-    border-radius: 10px 0 0 10px;
+}
+.div-registro img{
+    width: 90%;
+}
+.form-registro{
+    flex-direction: column;
+    gap: 2em;
+    width: 95%;
 }
 /* INDEX.HTML */
 /* header */
