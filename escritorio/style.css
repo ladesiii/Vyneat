@@ -301,6 +301,7 @@ button{
 
 .section-mejores-locales{
     padding-left: 1%;
+    padding-right: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,7 +312,7 @@ button{
 }
 
 .figure-artistas img, .figure-artistas p{
-    width: 85%;
+    width: 100%;
     color: #0C657B;
 }
 
@@ -334,4 +335,10 @@ button{
     padding: 2%;
     font-size: 150px;
     color: #E8C593;
+}
+
+.figure-artistas{
+    background-color: #242424;
+    width: 98%;
+    border-radius: 2%;
 }
