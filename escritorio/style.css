@@ -178,18 +178,18 @@ button{
 }
 /* REGISTRO.HTML */
 .container-registro{
-    background-color: #21add1;
+    background-color: #ffffff;
+    border: 2%;
     border-radius: 10px;
     width: 70%;
-    height: 70%;
+    height: 80%;
     display: flex;
 }
 .div-registro{
     background-color: black;
     width: 48%;
     height: 90%;
-    border-radius: 10px;
-
+    border-radius: 10px 0 0 10px;
 }
 /* INDEX.HTML */
 /* header */
