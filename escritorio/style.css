@@ -105,6 +105,7 @@ button{
     left: 0; 
     transition: transform 0.5s ease-in-out, left 0.5s ease-in-out, border-radius 0.5s ease-in-out, background-color 0.5s ease-in-out;
     border-radius: 10px 0 0 10px;
+    overflow: hidden;
 }
 .container-sign.toggle .container-welcome {
     transform: translateX(100%);
@@ -119,7 +120,6 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*padding: 20px;*/
     overflow: hidden;
 }
 .div-user > a {
