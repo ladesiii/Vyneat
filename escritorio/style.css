@@ -235,7 +235,7 @@ button{
 .titulo-artista-cabecera, .h1-lema {
     text-align: center;
     padding: 2%;
-    font-size: 128px;
+    font-size: 100px;
 }
 
 .img-home {
@@ -255,6 +255,8 @@ button{
     width: 80%;
     font-size: 24px;
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
 }
 
 .section-home {
@@ -279,7 +281,7 @@ button{
 .h1-mejores-artistas{
     text-align: center;
     padding: 2%;
-    font-size: 150px;
+    font-size: 120px;
     color: #21ADD1;
     padding-bottom: 8%;
     padding-top: 10%;
@@ -289,7 +291,7 @@ button{
     color: #E8C593;
     text-align: center;
     padding: 2%;
-    font-size: 150px;
+    font-size: 120px;
     padding-bottom: 8%;
     padding-top: 10%;
 }
@@ -347,4 +349,26 @@ button{
     background-color: #242424;
     width: 98%;
     border-radius: 2%;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #0C657B;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    display: flex;
+}
+
+.nav-footer{
+    justify-content: right;
+    display: block;
+}
+
+.nav-footer ul, li{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
 }
