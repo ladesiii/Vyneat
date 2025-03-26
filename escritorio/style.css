@@ -18,7 +18,7 @@ button{
 /* GENERAL */
 .h1-logo {
     font-family: "Poppins"!important;
-    font-size: 35px;
+    font-size: 60px;
     padding: 15px;
     color: white;
 }
@@ -49,6 +49,7 @@ button{
     align-items: center;
 }
 /* LOGIN.HTML */
+
 /* header */
 .header-login {
     width: 100%;
@@ -56,10 +57,10 @@ button{
     background-color: #0c657b;
     display: flex;
     align-items: center;
+    box-shadow: 0px 81px 26px rgba(0, 0, 0, 0.1);
 }
 .img-header {
-    width: 50px;
-    height: 50px;
+    width: 11%;
 }
 .botones-header {
     padding: 10px;
@@ -217,11 +218,14 @@ button{
 .nav-header ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
+    font-size: 22px;
 }
 
 .nav-header li {
     padding: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .titulo-artista {
@@ -278,6 +282,7 @@ button{
     width: 92%;
 }
 
+
 .h1-mejores-artistas{
     text-align: center;
     padding: 2%;
@@ -297,18 +302,17 @@ button{
 }
 
 .section-mejores-artistas{
-    padding-left: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 4%;
     background-image: url(/media/imagenes/fondoMadera.png);
     padding-top: 4%;
-    width: 86%;
+    width: 88%;
+    padding-right: 1%;
 }
 
 .section-mejores-locales{
-    padding-left: 1%;
     padding-right: 1%;
     display: flex;
     justify-content: center;
@@ -316,10 +320,10 @@ button{
     padding-bottom: 4%;
     background-image: url(/media/imagenes/fondoMadera.png);
     padding-top: 4%;
-    width: 86%;
+    width: 88%;
 }
 
-.figure-artistas img, .figure-artistas p{
+.figure-artistas img, .figure-artistas p, .figure-locales img, .figure-locales p{   
     width: 100%;
     color: #0C657B;
 }
@@ -345,7 +349,7 @@ button{
     color: #E8C593;
 }
 
-.figure-artistas{
+.figure-artistas, .figure-locales{
     background-color: #242424;
     width: 98%;
     border-radius: 2%;
@@ -356,19 +360,45 @@ button{
 footer{
     background-color: #0C657B;
     color: white;
-    text-align: center;
-    padding: 2%;
+    padding: 40px;
     display: flex;
+    align-items: center;
+    margin-top: 8%;
 }
-
 .nav-footer{
-    justify-content: right;
-    display: block;
+    justify-content: center;
+    width: 80%;
+    display: flex;
+    margin-right: 3%;
+    margin-left: 0%;
+    margin-top: 2%;
 }
-
-.nav-footer ul, li{
+.nav-footer li{
     display: flex;
     list-style: none;
-    justify-content: space-around;
-    width: 50%;
+}
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 4%;
+}
+.footer-column ul{
+    display: grid;
+    gap: 25px;
+    padding: 80px;
+    padding-left: 0px;
+    padding-top: 64px;
+}
+.logo-footer img{
+    width: 60%;
+}
+a{
+    color: white;
+}
+h4{
+    font-size: 19px;
+    font-weight: bold;
 }
